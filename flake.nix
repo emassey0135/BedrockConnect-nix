@@ -17,8 +17,8 @@
             pname = "bedrock-connect";
             version = "1.53";
             src = fetchurl {
-              url = "https://github.com/Pugmatt/BedrockConnect/releases/download/1.53/BedrockConnect-1.0-SNAPSHOT.jar";
-              hash = "sha256-YwYYcIUAB7KkubbkWYIn2ZMEFLxlqD7VQzYyi/yThYg=";
+              url = "https://github.com/Pugmatt/BedrockConnect/releases/download/1.54.1/BedrockConnect-1.0-SNAPSHOT.jar";
+              hash = "sha256-0/Msnk1aLP8IqYGZrhqzXX59wcFaaha7mMhZTvt+7sM=";
             };
             phases = ["installPhase"];
             installPhase = ''
