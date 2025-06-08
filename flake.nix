@@ -1,7 +1,7 @@
 {
   inputs = {
     nixpkgs = {
-      url = "github:NixOS/nixpkgs/nixos-24.11";
+      url = "github:NixOS/nixpkgs/nixos-25.05";
     };
     flake-utils = {
       url = "github:numtide/flake-utils";
@@ -15,10 +15,10 @@
         bedrock-connect = (with pkgs;
           stdenv.mkDerivation {
             pname = "bedrock-connect";
-            version = "1.54.1";
+            version = "1.56";
             src = fetchurl {
-              url = "https://github.com/Pugmatt/BedrockConnect/releases/download/1.54.1/BedrockConnect-1.0-SNAPSHOT.jar";
-              hash = "sha256-0/Msnk1aLP8IqYGZrhqzXX59wcFaaha7mMhZTvt+7sM=";
+              url = "https://github.com/Pugmatt/BedrockConnect/releases/download/1.56/BedrockConnect-1.0-SNAPSHOT.jar";
+              hash = "sha256-ewP9qHbt3Z9p0AoY5lzCR9HFTysRRivbwZ12euNXBDU=";
             };
             phases = ["installPhase"];
             installPhase = ''
