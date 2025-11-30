@@ -15,10 +15,10 @@
         bedrock-connect = (with pkgs;
           stdenv.mkDerivation {
             pname = "bedrock-connect";
-            version = "1.61";
+            version = "1.62";
             src = fetchurl {
-              url = "https://github.com/Pugmatt/BedrockConnect/releases/download/1.61/BedrockConnect-1.0-SNAPSHOT.jar";
-              hash = "sha256-H4PtswqA9b8o4FeiR0ljVwPHMW6tRxUiFqDn6v0q/MI=";
+              url = "https://github.com/Pugmatt/BedrockConnect/releases/download/1.62/BedrockConnect-1.0-SNAPSHOT.jar";
+              hash = "sha256-8xU/s313uRqB3kEnXhOWdRXbc5osJzik8dOCM6sxasA=";
             };
             phases = ["installPhase"];
             installPhase = ''
